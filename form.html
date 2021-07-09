@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form Demo</title>
+	</head>
+	<body>
+		<fieldset>
+		<legend>Instructions</legend>
+		</fieldset>
+		<fieldset>
+		<legend>Form Demo</legend>
+		<form action="" method="post">
+			<label for="fullname">Fullname:</label> <br>
+			<input type="text" name="fullname" id="fullname"> <br>
+			
+			<label>Select cities you've visited before</label>
+			<input type="checkbox" name="city1" value="Kano">
+			<label>Kano</label><br>
+			<input type="checkbox" name="city2" value="Jos">
+			<label>Jos</label><br>
+			<input type="checkbox" name="city3" value="Benin">
+			<label>Benin</label><br>
+			<input type="checkbox" name="city4" value="Asaba">
+			<label>Asaba</label><br>
+			<input type="checkbox" name="city5" value="Lagos">
+			<label>Lagos</label><br>
+			
+			<label>Gender</label>
+			<input type="radio" name="gender" value="male">
+			<label>Male</label>
+			<input type="radio" name="gender" value="female">
+			<label>Female</label>
+			<input type="radio" name="gender" value="others">
+			<label>Others</label>
+			<br>
+			
+			<label>Password:</label>
+			<input type="password" name="mypassword"><br>
+			
+			<label>Upload Resume</label>
+			<input type="file" name="resume" multiple><br>
+			
+			<label>West African Countries</label><br>
+			<select name= "country">
+			<option value="">Select country</option>
+			<option value="234">Nigeria</option>
+			<option value="233">Ghana</option> 
+			<option value="232">Togo</option>
+			<option value="230">Senegal</option>
+			<option value="231">Mali</option>
+			</select>
+			<br>
+			
+			<label>Comments</label><br>
+			<textarea name="comment" rows="10" cols="100">
+			</textarea><br>
+			<label>Email address:</label>
+			<input type="email" name="emailaddress"><br>
+			<label>Choose Color</label><br>
+			<input type="color" name="mycolor">
+			
+			<br>
+			<button type="button">Calculate Age</button>
+			<input type="reset" name="reset" value="Clear">
+			<input type="submit" name="submit" value="Register">
+		</form>
+		</fieldset>
+	</body>
+</html>
